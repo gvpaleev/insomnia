@@ -1,0 +1,23 @@
+_id: req_684065ea923f468f8e8e8702ba272fd0
+type: Request
+parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
+modified: 1694303012180
+created: 1694302843570
+url: http://127.0.0.1:3000/wallet/newAddres
+name: newAddres
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication: {}
+metaSortKey: -1694302843570
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
