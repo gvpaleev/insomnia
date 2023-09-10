@@ -1,15 +1,22 @@
 _id: req_d0c8b22804524facba740363b3c68746
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694303061153
+modified: 1694355200484
 created: 1694303040331
 url: http://127.0.0.1:3000/wallet/getBalance
 name: getBalance
 description: ""
 method: GET
-body: {}
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"index":0
+    }
 parameters: []
 headers:
+  - name: Content-Type
+    value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
