@@ -1,26 +1,19 @@
-_id: req_d0c8b22804524facba740363b3c68746
+_id: req_8147961945f840e493f151d7fde32ced
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694356379792
-created: 1694303040331
-url: http://127.0.0.1:3000/wallet/getBalance
-name: getBalance
+modified: 1694457251204
+created: 1694457203130
+url: http://127.0.0.1:3000/getPriceMoneroToMir
+name: New Request
 description: ""
 method: GET
-body:
-  mimeType: application/json
-  text: |-
-    {
-    	"index":11
-    }
+body: {}
 parameters: []
 headers:
-  - name: Content-Type
-    value: application/json
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1694303040331
+metaSortKey: -1694457203130
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

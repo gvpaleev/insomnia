@@ -1,17 +1,17 @@
-_id: req_d0c8b22804524facba740363b3c68746
+_id: req_11fceefc628440af8f6899dd9b6162f8
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694356379792
-created: 1694303040331
-url: http://127.0.0.1:3000/wallet/getBalance
-name: getBalance
+modified: 1694548904439
+created: 1694546528551
+url: http://127.0.0.1:3000/tinkoff/pay
+name: tinkoffPay
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: |
     {
-    	"index":11
+    	"url":"https://google.com"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1694303040331
+metaSortKey: -1694546528551
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

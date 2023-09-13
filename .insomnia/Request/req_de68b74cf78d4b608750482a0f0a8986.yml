@@ -1,17 +1,17 @@
-_id: req_d0c8b22804524facba740363b3c68746
+_id: req_de68b74cf78d4b608750482a0f0a8986
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694356379792
-created: 1694303040331
-url: http://127.0.0.1:3000/wallet/getBalance
-name: getBalance
+modified: 1694636834999
+created: 1694626868966
+url: http://127.0.0.1:3000/getAddress
+name: api-gateway-pay getAddres
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"index":11
+    	"uid":"1231231231321"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1694303040331
+metaSortKey: -1694626868966
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
