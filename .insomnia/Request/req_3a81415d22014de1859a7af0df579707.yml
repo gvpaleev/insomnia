@@ -1,17 +1,17 @@
 _id: req_3a81415d22014de1859a7af0df579707
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694627144641
+modified: 1694975156707
 created: 1694627104015
-url: http://127.0.0.1:3000/getBalance
-name: api-gateway-pay getBalance
+url: http://127.0.0.1:3002/getBalance
+name: getBalance
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"UID":"asdasdasd"
+    	"uid":"asd2asdasd"
     }
 parameters: []
 headers:
@@ -20,7 +20,7 @@ headers:
   - name: User-Agent
     value: Insomnia/2023.5.7
 authentication: {}
-metaSortKey: -1694627104015
+metaSortKey: -1694302843420
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

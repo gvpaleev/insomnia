@@ -1,9 +1,9 @@
 _id: req_95ed9b4004db4b05b413da01e948d66b
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694725652839
+modified: 1694978826426
 created: 1694724467174
-url: http://127.0.0.1:3000/getAddressForReplenishment
+url: http://127.0.0.1:3002/getAddressForReplenishment
 name: getSubAccountForReplenishmentDto
 description: ""
 method: POST
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"uid" :"2",
+    	"uid" :"asd2asdasd",
     	"accountIndex":0
     }
 parameters: []

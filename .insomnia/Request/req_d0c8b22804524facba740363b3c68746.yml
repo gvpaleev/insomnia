@@ -1,12 +1,12 @@
 _id: req_d0c8b22804524facba740363b3c68746
 type: Request
 parentId: wrk_2a24b2c3e3b64291bd690de601eb2dc3
-modified: 1694724088382
+modified: 1694982246223
 created: 1694303040331
 url: http://127.0.0.1:3001/wallet/getTxsForSubAddressIndex
 name: getTxsForSubAddressIndex
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
   text: |-
